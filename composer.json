@@ -1,0 +1,26 @@
+{
+    "name": "sahifedp/helpers",
+    "description": "Helper functions for PHP",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohsen Bagheri",
+            "email": "aquarius.native@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sahifedp\\helpers\\HelpersServiceProvider"
+            ],
+            "aliases": {
+            	"Helpers": "sahifedp\\helpers\\Helpers"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "sahifedp\\helpers\\": "src/"
+        }
+    }
+}
